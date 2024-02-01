@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Manrope";
+  font-weight: 400;
+  line-height: 26px;
+}
+
+h1 {
+  font-size: 5.6rem;
+  line-height: 5.8rem;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4.4rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+}
+
+h5 {
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 35px 165px 48px 165px;
+}

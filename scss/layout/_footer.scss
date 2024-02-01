@@ -1,0 +1,60 @@
+.foode__container {
+  background-color: #000;
+  hr {
+    width: 101px;
+    height: 4px;
+    flex-shrink: 0;
+    background-color: #d87d4a;
+    border: none;
+    margin-top: -35px;
+    margin-bottom: 40px;
+  }
+  .fooder__logo {
+    display: flex;
+    align-items: center;
+    gap: 538px;
+    .navbar ul {
+      display: flex;
+      align-items: center;
+      gap: 34px;
+      margin-right: 320px;
+      a {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        transition: all 0.3s;
+        &:hover {
+          color: #d87d4a;
+        }
+      }
+    }
+  }
+  .footer__tital {
+    display: flex;
+    align-items: end;
+    margin-top: 36px;
+    gap: 466px;
+    p {
+      width: 540px;
+      color: #fff;
+      opacity: 0.5;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+  }
+  .footer__tital-smol {
+    p {
+      color: #fff;
+      font-family: Manrope;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px;
+      opacity: 0.5;
+      margin-top: 56px;
+    }
+  }
+}

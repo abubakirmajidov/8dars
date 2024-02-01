@@ -1,0 +1,140 @@
+.hero__container {
+  background-color: #131313;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  .hero__title {
+    .title__p1 {
+      color: #fff;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      opacity: 0.4964;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 24px;
+    }
+    .title__p2 {
+      color: #fff;
+      opacity: 0.75;
+      font-size: 15px;
+      font-family: Manrope;
+      font-weight: 400;
+      line-height: 25px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.section2__container {
+  background-color: #d87d4a;
+  width: 1110px;
+  height: 560px;
+  flex-shrink: 0;
+  margin-top: 168px;
+  border-radius: 15px;
+  .section2__img {
+    position: relative;
+    .img1 {
+      position: absolute;
+      left: -300px;
+      top: -70px;
+      z-index: 0;
+    }
+    .img2 {
+      position: absolute;
+      z-index: 1;
+      bottom: -535px;
+      left: -20px;
+    }
+  }
+  .section2__tital {
+    position: relative;
+    h1 {
+      color: #fff;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 58px; /* 103.571% */
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      width: 255px;
+      position: absolute;
+      left: 500px;
+      top: 100px;
+    }
+    p {
+      width: 359px;
+      color: #fff;
+      opacity: 0.75;
+      position: absolute;
+      font-size: 16px;
+      left: 500px;
+      top: 244px;
+    }
+    .button324 {
+      position: absolute;
+      right: 120px;
+      bottom: -390px;
+    }
+  }
+}
+
+.section3__contaner {
+  background-image: url(../img/home/desktop/image-speaker-zx7.jpg);
+  margin-top: 48px;
+  width: 1110px;
+  height: 320px;
+  border-radius: 15px;
+  padding-left: 95px;
+  padding-top: 101px;
+  margin-bottom: 48px;
+  z-index: 1;
+  position: relative;
+  h4 {
+    color: #000;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+}
+
+.section4__contaner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  .section4__img img {
+    border-radius: 15px;
+  }
+  .section4__titel {
+    width: 540px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #f1f1f1;
+    padding: 101px 0px 101px 95px;
+    h4 {
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #000;
+      font-family: Manrope;
+      margin-bottom: 32px;
+    }
+  }
+}

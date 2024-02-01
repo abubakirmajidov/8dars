@@ -1,0 +1,33 @@
+.header__container {
+  background: #131313;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .logo img {
+    width: 143px;
+    height: 25px;
+    flex-shrink: 0;
+    margin-right: 197px;
+  }
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    margin-right: 320px;
+    a {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      transition: all 0.3s;
+      &:hover {
+        color: #d87d4a;
+      }
+    }
+  }
+  hr {
+    color: #fff;
+    position: absolute;
+    width: 1110px;
+    bottom: 0;
+  }
+}
